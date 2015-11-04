@@ -83,16 +83,10 @@ body{
 
   }
   #donate-button{
-    
-    height: 30px;
-    width: 150px;
-    background-repeat: repeat-x;
     float: right;
-    color: #fff;
-    font-size: 18px;
-    padding-left: 20px;
-    padding-top: 8px;
-    text-align: center;
+    right: 10px;
+    top: 10px;
+    
   }
   #donate-btn:hover{
     color: yellow;
@@ -346,18 +340,7 @@ body{
   top:0px;
   right: 845px; 
 }
-#point1{
-  
-  position: absolute;
-  top:-1px;
-  right: 126px;
 
-}
-#point2{
-  position: absolute;
-  top:193.5px;
-  right: 301px;
-}
 #more{
   text-align: right;
 }
