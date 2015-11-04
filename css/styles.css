@@ -196,8 +196,12 @@ body{
 /*------------- FOOTER NAVIGATION--------------*/
 
   footer{
-    float: left;
-  }
+    
+    
+    }
+  footer section {
+    display: inline-block;
+    }
   .foot-nav{
     background-color: #091f37;
     width: 175px;
@@ -210,11 +214,11 @@ body{
     margin-left: 25px;
 
 
-  }
+    }
   .foot-nav:hover{
     background-color: #fff;
     color: #091f37;
-  }
+   } 
    li{
     color: #fff;
     font-family: sans-serif;
