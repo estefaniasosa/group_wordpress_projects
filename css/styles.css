@@ -65,9 +65,10 @@ body{
   #fb-btn{
     background-color: #0c2745;
     float: left;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-right: 25px;
   }
+
    #search-box{
     float: left;
     clear: right;
@@ -176,10 +177,14 @@ body{
     color:  #525252;
     padding-left: 4%;
   }
+  
+  article{
+    border-top: solid 1px;
+  }
   #formatting{
 
   margin-left: 2.5%;
-  border-top: 1px solid;
+  
   border-color: #525252;
   display: inline-block;
   float: left;
@@ -234,7 +239,7 @@ body{
   #accordion{
     background-color: #fff;
     position: absolute;
-    top:200px;
+    top:218px;
     right: 0px;
   }
   .testimony{
@@ -352,8 +357,9 @@ body{
   }
   .third{
     width: 30%;
-  
+    text-align: justify-left;
     margin: 0px 1%;
     float: left;
+    
   }
  
