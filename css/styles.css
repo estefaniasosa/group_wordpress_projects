@@ -196,6 +196,9 @@ body{
   
 /*------------- FOOTER NAVIGATION--------------*/
 
+  footer{
+    float: left;
+  }
   .foot-nav{
     background-color: #091f37;
     width: 175px;
@@ -206,6 +209,7 @@ body{
     text-align: center;
     margin-top: 25px;
     margin-left: 25px;
+
 
   }
   .foot-nav:hover{
@@ -230,11 +234,7 @@ body{
   ul{
     padding-left:40px;
   }
-  footer{
-    color: #fff;
-    font-family: sans-serif;
-    padding: 20px;
-  }
+
   
 /*------------- ACCORDIAN--------------*/
   #accordion{
@@ -373,9 +373,4 @@ body{
     margin: 0px 1%;
     float: left;
   }
-  footer{
-    width: 22%;
-    padding:0px .5%;
-    margin: 0px 1%;
-    float: left;
-  }
+ 
