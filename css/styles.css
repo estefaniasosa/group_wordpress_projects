@@ -1,369 +1,340 @@
-body{
-  background-image: url(../_images/bg.jpg);
-  background-repeat: repeat-x;
-  background-color: #234469;
-  }
-#container{
-  width: 970px;
-  height: 1136px;
-  margin: 0px auto;
-  background-color: #0c2745;
-  position: relative;
-  }
-  /*------------- NAVIGATION--------------*/
-    header{
-    background-color: #173f6b;
-    font-weight: bold;
-    color: #fff;
-    text-align: left;
-    font-family: sans-serif;
-    padding-top: 5px;
-    padding-bottom: 6px;
-  }
-
-
-  .top-nav{
-    height: 50px;
-
-  }
-  .top-nav nav{
-    float: left;
-    margin-left: 130px;
-    height: 12px;
-    margin-top: 10px;
-    
-  }
-  .top-nav nav a{
-    
-    text-decoration: none;
-    color: #fff;
-    font-family: sans-serif;
-    display: inline-block;
-    font-size: 12px;
-    padding: 0px  10px 0px 10px;
-    border-right: 1px solid #fff;
-    
-  }
-  
-
-  .top-nav nav a.none{
-    
-    text-decoration: none;
-    color: #fff;
-    font-family: sans-serif;
-    display: inline-block;
-    font-size: 12px;
-    padding: 0px  20px 0px 0px;
-    border-right: none;
-  }
-    
-.top-nav nav a:hover{
-    color: #dd7e08;
-
-  }
-
-  #fb-btn{
-    background-color: #0c2745;
-    float: left;
-    margin-top: 0px;
-    margin-right: 25px;
-  }
-
-   #search-box{
-    float: left;
-    clear: right;
-    background-color: #fff;
-    width: 235px;
-    height:30px;
-    border-radius: 20px;
-    color: gray;
-    padding-left: 25px;
-    font-size: 20px;
-    margin-right: 15px;
-  
-
-  }
-  #donate-button{
-    float: right;
-    right: 10px;
-    top: 10px;
-    
-  }
-  #donate-btn:hover{
-    color: yellow;
-
-  }
-
-
-
-.bottom-nav{
-
-    height: 80px;
-    background-image: url(../_images/bottomNav_bg.jpg);
-  background-repeat: repeat-x;
-  padding-top: 20px;
-
-  }
-  .bottom-nav nav {
-    margin-left: 150px;
-    margin-top: 10px;
-
-
-  }
-  .bottom-nav nav a {
-    text-decoration: none;
-    color: #525252;
-    padding-right: 35px;
-    font-family: sans-serif;
-    float: left;
-    font-size: 13px;
-    font-weight: bold;
-  }
-  .bottom-nav nav a:hover {
-    
-    color: #fff;
-    background-color: #ec940f;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 0px 30px 0px 10px;
-
-    
-    
-  }
-
-
-/*------------- END-NAVIGATION--------------*/
-  
-/*------------- SPLASH-IMAGE--------------*/
-
-  #splash-image{
-      background-color: #fff;
-      height: 352px;
-      
-    }
-  #splash-image h1{
-    margin-top: -70px;
-    color: white;
-    
-  } 
- #splash-image h2{
-     margin-top: -20px;
-     margin-left: 170px;
-     color: white;
-
-      
-    }
-
-
-/*------------- FEATURE-ARTICLE--------------*/
-
- 
-  
-  .feature{
-    background-color: #fff;
-    overflow: hidden;
-  }
-  .feature p{
-    color: #525252;
-    overflow: hidden;
-    font-family: sans-serif;
-    line-height: 19px;
-    font-size: 14px;
-    padding: 0px .5%;
-
-  } 
-  h1{
-    font-weight:normal;
-    color:  #525252;
-    padding-left: 4%;
-  }
-  
-  article{
-    border-top: solid 1px;
-  }
-  #formatting{
-
-  margin-left: 2.5%;
-  
-  border-color: #525252;
-  display: inline-block;
-  float: left;
-  padding-bottom: 20px;
-  overflow: hidden;
-
-  }
-  
-/*------------- FOOTER NAVIGATION--------------*/
-
-  footer{
-    
-    
-    }
-  footer section {
-    display: inline-block;
-    }
-  .foot-nav{
-    background-color: #091f37;
-    width: 175px;
-    height: 40px;
-    color: #fff;
-    font-family: sans-serif;
-    line-height:40px;
-    text-align: center;
-    margin-top: 25px;
-    margin-left: 25px;
-
-
-    }
-  .foot-nav:hover{
-    background-color: #fff;
-    color: #091f37;
-   } 
-   li{
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 12px;
-    padding-bottom: 8px;
-
-  }
-  li a{
-    text-decoration: none;
-    color: #fff;
-  }
-  li a:hover{
-    text-decoration: none;
-    color: orange;
-  }
-  ul{
-    padding-left:40px;
-  }
-
-  
-/*------------- ACCORDIAN--------------*/
-  #accordion{
-    background-color: #fff;
-    position: absolute;
-    top:218px;
-    right: 0px;
-  }
-  .testimony{
-    float: left;
-    font-size: 10px;
-  }
-  .testimony p{
-    width: 50%;
-    float: left;
-    font-family: sans-serif;
-    font-weight: bold;
-    padding-left: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  .testimony img{
-    margin-top: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-  }
-  
-
-  .selections{
-    background-color: #f69614;
-    font-weight: bolder;
-    color: #fff;
-    text-align: left;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    height: 18px;
-    margin-top: 5px;
-    clear: both;
-    width: 93%;
-    line-height: 24px;
-    font-size: 19px;
-    font-family: sans-serif;
-    padding-left: 15px;
-
-  }
-  .selections:hover{
-    background-color:#173f6b;
-    color:  #f69614;
-
-  }
-  #like-share{
-    padding-left: 20px;
-    background-color:#e4e2e2; 
-  }
-  h2{
-    font-family: sans-serif;
-    color: #173f6b;
-    font-weight: lighter;
-    border-bottom: 1px solid  #173f6b;
-    padding-bottom: 15px;
-    clear:both;
-  }
-  h3{
-    font-family: sans-serif;
-    color:  #000;
-    font-size: 14px;
-    font-weight: lighter;
-    line-height: 25px;
-  }
-  h4{
-    font-family: sans-serif;
-    color:  #f9a634;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 0px;
-  
-  }
-  h4 p{
-    font-family: sans-serif;
-    color:  #e4e2e2;
-    font-weight: lighter;
-    font-size: 14px;
-    clear:both;
-    display: inline-block;
-  }
-
-.social-media article{
-  font-family: sans-serif;
-  font-weight: lighter;
-  font-size: 13px;
-  line-height: 22px;
-}
-#logo1{
-  
-  position: absolute;
-  bottom:60px;
-  right: 150px;
-
-}
-#logo2{
-  position: absolute;
-  bottom:60px;
-  right: 30px;  
-}
-#crest-logo{
-  position: absolute;
-  top:0px;
-  right: 845px; 
+body {
+background-image:url(../_images/bg.jpg);
+background-repeat:repeat-x;
+background-color:#234469;
 }
 
-#more{
-  text-align: right;
+#container {
+width:970px;
+height:1136px;
+background-color:#0c2745;
+position:relative;
+margin:0 auto;
 }
-  .full{
-    width: 97%;
-    padding:0px .5%;
-    margin: 0px 1%;
 
-  }
-  .third{
-    width: 30%;
-    text-align: justify-left;
-    margin: 0px 1%;
-    float: left;
-    
-  }
- 
+header {
+background-color:#173f6b;
+font-weight:700;
+color:#fff;
+text-align:left;
+font-family:sans-serif;
+padding-top:5px;
+padding-bottom:6px;
+}
+
+.top-nav {
+height:50px;
+}
+
+.top-nav nav {
+float:left;
+margin-left:130px;
+height:12px;
+margin-top:10px;
+}
+
+.top-nav nav a {
+text-decoration:none;
+color:#fff;
+font-family:sans-serif;
+display:inline-block;
+font-size:12px;
+border-right:1px solid #fff;
+padding:0 10px;
+}
+
+.top-nav nav a.none {
+text-decoration:none;
+color:#fff;
+font-family:sans-serif;
+display:inline-block;
+font-size:12px;
+border-right:none;
+padding:0 20px 0 0;
+}
+
+.top-nav nav a:hover {
+color:#dd7e08;
+}
+
+#fb-btn {
+background-color:#0c2745;
+float:left;
+margin-top:0;
+margin-right:25px;
+}
+
+#search-box {
+float:left;
+clear:right;
+background-color:#fff;
+width:235px;
+height:30px;
+border-radius:20px;
+color:gray;
+padding-left:25px;
+font-size:20px;
+margin-right:15px;
+}
+
+#donate-button {
+float:right;
+right:10px;
+top:10px;
+}
+
+#donate-btn:hover {
+color:#FF0;
+}
+
+.bottom-nav {
+height:80px;
+background-image:url(../_images/bottomNav_bg.jpg);
+background-repeat:repeat-x;
+padding-top:20px;
+}
+
+.bottom-nav nav {
+margin-left:150px;
+margin-top:10px;
+}
+
+.bottom-nav nav a {
+text-decoration:none;
+color:#525252;
+padding-right:35px;
+font-family:sans-serif;
+float:left;
+font-size:13px;
+font-weight:700;
+}
+
+.bottom-nav nav a:hover {
+color:#fff;
+background-color:#ec940f;
+border-radius:10px;
+overflow:hidden;
+padding:0 30px 0 10px;
+}
+
+#splash-image {
+background-color:#fff;
+height:352px;
+}
+
+#splash-image h1 {
+margin-top:-70px;
+color:#FFF;
+}
+
+#splash-image h2 {
+margin-top:-20px;
+margin-left:170px;
+color:#FFF;
+}
+
+.feature {
+background-color:#fff;
+overflow:hidden;
+}
+
+.feature p {
+color:#525252;
+overflow:hidden;
+font-family:sans-serif;
+line-height:19px;
+font-size:14px;
+padding:0 .5%;
+}
+
+h1 {
+font-weight:400;
+color:#525252;
+padding-left:4%;
+}
+
+article {
+border-top:solid 1px;
+}
+
+#formatting {
+margin-left:2.5%;
+display:inline-block;
+float:left;
+padding-bottom:20px;
+overflow:hidden;
+border-color:#525252;
+}
+
+footer section {
+display:inline-block;
+}
+
+.foot-nav {
+background-color:#091f37;
+width:175px;
+height:40px;
+color:#fff;
+font-family:sans-serif;
+line-height:40px;
+text-align:center;
+margin-top:25px;
+margin-left:25px;
+}
+
+.foot-nav:hover {
+background-color:#fff;
+color:#091f37;
+}
+
+li {
+color:#fff;
+font-family:sans-serif;
+font-size:12px;
+padding-bottom:8px;
+}
+
+li a {
+text-decoration:none;
+color:#fff;
+}
+
+li a:hover {
+text-decoration:none;
+color:orange;
+}
+
+ul {
+padding-left:40px;
+}
+
+#accordion {
+background-color:#fff;
+position:absolute;
+top:218px;
+right:0;
+}
+
+.testimony {
+float:left;
+font-size:10px;
+}
+
+.testimony p {
+width:50%;
+float:left;
+font-family:sans-serif;
+font-weight:700;
+padding-left:15px;
+padding-top:25px;
+padding-bottom:25px;
+}
+
+.testimony img {
+margin-top:10px;
+padding-top:25px;
+padding-bottom:25px;
+}
+
+.selections {
+background-color:#f69614;
+font-weight:bolder;
+color:#fff;
+text-align:left;
+padding-top:12px;
+padding-bottom:12px;
+height:18px;
+margin-top:5px;
+clear:both;
+width:93%;
+line-height:24px;
+font-size:19px;
+font-family:sans-serif;
+padding-left:15px;
+}
+
+.selections:hover {
+background-color:#173f6b;
+color:#f69614;
+}
+
+#like-share {
+padding-left:20px;
+background-color:#e4e2e2;
+}
+
+h2 {
+font-family:sans-serif;
+color:#173f6b;
+font-weight:lighter;
+border-bottom:1px solid #173f6b;
+padding-bottom:15px;
+clear:both;
+}
+
+h3 {
+font-family:sans-serif;
+color:#000;
+font-size:14px;
+font-weight:lighter;
+line-height:25px;
+}
+
+h4 {
+font-family:sans-serif;
+color:#f9a634;
+font-weight:lighter;
+font-size:14px;
+line-height:0;
+}
+
+h4 p {
+font-family:sans-serif;
+color:#e4e2e2;
+font-weight:lighter;
+font-size:14px;
+clear:both;
+display:inline-block;
+}
+
+.social-media article {
+font-family:sans-serif;
+font-weight:lighter;
+font-size:13px;
+line-height:22px;
+}
+
+#logo1 {
+position:absolute;
+bottom:60px;
+right:150px;
+}
+
+#logo2 {
+position:absolute;
+bottom:60px;
+right:30px;
+}
+
+#crest-logo {
+position:absolute;
+top:0;
+right:845px;
+}
+
+#more {
+text-align:right;
+}
+
+.full {
+width:97%;
+margin:0 1%;
+padding:0 .5%;
+}
+
+.third {
+width:30%;
+text-align:justify-left;
+float:left;
+margin:0 1%;
+}
