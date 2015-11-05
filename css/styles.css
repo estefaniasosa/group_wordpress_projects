@@ -27,14 +27,14 @@ padding-bottom:6px;
 height:50px;
 }
 
-.top-nav nav {
+.top-nav nav ul {
 float:left;
-margin-left:130px;
+margin-left:80px;
 height:12px;
 margin-top:10px;
 }
 
-.top-nav nav a {
+.top-nav nav li {
 text-decoration:none;
 color:#fff;
 font-family:sans-serif;
@@ -69,7 +69,7 @@ margin-right:25px;
 float:left;
 clear:right;
 background-color:#fff;
-width:235px;
+width:200px;
 height:30px;
 border-radius:20px;
 color:gray;
@@ -95,11 +95,15 @@ background-repeat:repeat-x;
 padding-top:20px;
 }
 
-.bottom-nav nav {
-margin-left:150px;
-margin-top:10px;
+.bottom-nav nav ul{
+	width: 900px;
+	margin-left: 105px;
+	margin-top: 8px;
 }
 
+.bottom-nav nav li{
+	display: inline-block;
+}
 .bottom-nav nav a {
 text-decoration:none;
 color:#525252;
@@ -119,20 +123,22 @@ padding:0 30px 0 10px;
 }
 
 /*--------------SPLASH-PAGE-----------------*/
-#splash-image {
+.splash-image {
 background-color:#fff;
 height:352px;
 }
 
-#splash-image h1 {
+.splash-image h2 {
 margin-top:-70px;
 color:#FFF;
+margin-left: 80px;
 }
 
-#splash-image h2 {
-margin-top:-20px;
-margin-left:170px;
+.splash-image h3 {
+margin-top:-30px;
+margin-left:195px;
 color:#FFF;
+font-size: 20px;
 }
 
 /*--------------FEATURE-----------------*/
@@ -150,7 +156,7 @@ font-size:14px;
 padding:0 .5%;
 }
 
-h1 {
+.feature h1 {
 font-weight:400;
 color:#525252;
 padding-left:4%;
@@ -158,9 +164,10 @@ padding-left:4%;
 
 article {
 border-top:solid 1px;
+
 }
 
-#formatting {
+.formatting {
 margin-left:2.5%;
 display:inline-block;
 float:left;
@@ -173,7 +180,7 @@ border-color:#525252;
 footer{
 	margin-left: 215px;
 	margin-top: -190px;
-	position: absolute;
+	position: relative;
 
 }
 footer section {
@@ -183,9 +190,9 @@ display:inline-block;
 footer p{
 	color: white;
 	text-align: center;
-	margin-left: 205px;
+	margin-left: -215px;
 }
-.foot-nav {
+section .foot-nav {
 background-color:#091f37;
 width:175px;
 height:40px;
@@ -197,7 +204,17 @@ margin-top:25px;
 margin-left:25px;
 }
 
-.foot-nav:hover {
+section  h5{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-family:sans-serif;
+	background-color:#091f37;
+	padding-bottom: 5px;
+	padding-top:5px; 
+}
+
+section .foot-nav:hover {
 background-color:#fff;
 color:#091f37;
 }
@@ -339,7 +356,7 @@ top:0;
 right:845px;
 }
 
-#more {
+.more {
 text-align:right;
 }
 
