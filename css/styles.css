@@ -12,6 +12,7 @@ position:relative;
 margin:0 auto;
 }
 
+/*--------------HEADER-----------------*/
 header {
 background-color:#173f6b;
 font-weight:700;
@@ -117,6 +118,7 @@ overflow:hidden;
 padding:0 30px 0 10px;
 }
 
+/*--------------SPLASH-PAGE-----------------*/
 #splash-image {
 background-color:#fff;
 height:352px;
@@ -133,6 +135,7 @@ margin-left:170px;
 color:#FFF;
 }
 
+/*--------------FEATURE-----------------*/
 .feature {
 background-color:#fff;
 overflow:hidden;
@@ -166,10 +169,22 @@ overflow:hidden;
 border-color:#525252;
 }
 
+/*--------------FOOTER-----------------*/
+footer{
+	margin-left: 215px;
+	margin-top: -190px;
+	position: absolute;
+
+}
 footer section {
 display:inline-block;
 }
 
+footer p{
+	color: white;
+	text-align: center;
+	margin-left: 205px;
+}
 .foot-nav {
 background-color:#091f37;
 width:175px;
@@ -208,6 +223,7 @@ ul {
 padding-left:40px;
 }
 
+/*--------------ACCORDIAN-----------------*/
 #accordion {
 background-color:#fff;
 position:absolute;
@@ -304,6 +320,7 @@ font-size:13px;
 line-height:22px;
 }
 
+/*--------------LOGOS-----------------*/
 #logo1 {
 position:absolute;
 bottom:60px;
