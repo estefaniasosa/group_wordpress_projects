@@ -1,9 +1,8 @@
-<!-- html5 boilerplate -->
-<!-- add normalize -->
-
 <!DOCTYPE html>
+<html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<meta charset="UTF-8">
 		<title>BHS</title>
 	</head>
@@ -80,41 +79,55 @@
 			<!--ACCORDIAN -->
 			<!-- keep this id for possible javascript reasons -->
 			<!-- get jquery ui -->
-			<div id="accordion" class="third">
-				<header>Testimonials</header>
-				<div class="testimony">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.
-                    <!-- use css and padding instead of all these <brs> -->
-					</br></br></br>
-					<a href="_images/graduate.png" width="118" height="103" alt="Graduate image">Click here to view</a></p> 
-					<img src="_images/graduate.png" width="118" height="103" alt="Graduate image">
-				</div><!-- END .testimonials -->
-				<div class="selections">Get Involved!</div>
-				<div class="selections">Work at BHS</div>
-				<div class="selections">Subscribe to Newsletter</div>
-				<div class="social-media">
-					<div id="like-share">
-						<img src="_images/likes.png" width="102" height="34" alt="Like button">
-						<img src="_images/shares.png" width="112" height="33" alt="Shares button">
-					</div>
-					<h2>Latest Facebook Post</h2>
-					<h3>Recovery Month 2011 - Home</h3>
-					<h4>May 9, 2011 10:21 AM<p> </br>by Apple Applegate</p></h4>
-					<article>
-						Recovery Month promotes the societal benefits of treatment for substance usedisordersand mental health problems, celebrates people in recovery, lauds thecontributions oftreatment providers, and promotes the message that recovery in allits forms is possible.Recovery Month spreads the position.
-						</br>
-						<div class="more">
-						    <!-- change to class -->
-							<a href="#">MORE</a>
+			<aside>
+				<div id="accordion" class="third">
+					<h4>Testimonials</h4>
+						<div>
+							<span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								<a href="#">Click here to view</a>
+							</span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
 						</div>
-					</article>
+	
+						<h4>Get Involved!</h4>
+						<div><span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<a href="#">Click 	here to view</a></span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
+						</div>
+						<h4>Work at BHS</h4>
+						
+						<div><span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<a href="#">Click 	here to view</a></span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
+						</div>
+						<h4>Subscribe to Newsletter</h4>
+	
+						<div><span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<a href="#">Click here to view</a></span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
+						</div>
+	
 				</div>
-					
-
-			</div>
+					<!--SOCIAL-MEDIA -->
+						<div class="social-media">
+							<div id="like-share">
+								<img src="_images/likes.png">
+								<img src="_images/shares.png">
+						    </div>
+								<h2>Latest Facebook Post</h2>
+								<h5>Recovery Month 2011 - Home</h5>
+								<h4>May 9, 2011 10:21 AM<p>by Apple Applegate</p></h4>
+							<article>
+								Recovery Month promotes the societal benefits of treatment for substance use disorders and mental health 	problems, celebrates people in recovery, lauds the contributions of treatment providers, and promotes the 	message that recovery in all its forms is possible. Recovery Month spreads the position.
+								
+								<div class="more">
+									<a href="#">MORE</a>
+								</div>
+							</article>	
+						</div>
+						
+	
+				</div>
+			</aside>
 					<!--LOGOS -->
-					<div id="logo1"><img src="_images/logo1.png" width="91" height="89" alt="ADP logo"></div>
-					<div id="logo2"><img src="_images/logo2.png" width="115" height="88" alt="carf logo"></div>
 					
 					<div id="crest-logo"><img src="_images/crestLogo.png" width="106" height="113" alt="Crest Logo"></div>
 		</div>
@@ -147,9 +160,31 @@
 							<li><a href="#">Volunteer Your Time</a></li>
 							<li><a href="#">Partner Your Agency With Ours</a></li>
 						</ul>
+				</section>
+				<section class="logos">
+					<img src="_images/logo1.png" id="logo1" width="91" height="89" alt="ADP logo">
+					<img src="_images/logo2.png" id="logo2" width="115" height="88" alt="carf logo">
 				</section>	
 			<p>Copyright Behavioral Health Services &amp;copy 2011. All Rights reserved.</p>
 		</footer>	
+		<script src="_js/jquery-1.11.3.min.js"></script>
+       <script src="_js/jquery-ui-1.11.4-custom.min.js"></script>
+		<script>
+		$(function() {
+          $( "#accordion" ).accordion();
+        });
+		// $(function () {
+  //   	//  Accordion Panels
+  //   	$("#accordion div").show();
+  //   	setTimeout("$('#accordion div').slideToggle('slow');", 1000);
+  //   	$("#accordion h3").click(function () {
+  //         $(this).next(".pane").slideToggle("slow").siblings(".pane:visible").slideUp("slow");
+  //         $(this).toggleClass("current");
+  //         $(this).siblings("h3").removeClass("current");
+  //   });
+// });
+
+		</script>
 		
 	</body>
 </html>

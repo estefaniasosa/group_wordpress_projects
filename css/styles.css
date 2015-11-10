@@ -12,7 +12,6 @@ position:relative;
 margin:0 auto;
 }
 
-/*--------------HEADER-----------------*/
 header {
 background-color:#173f6b;
 font-weight:700;
@@ -95,15 +94,12 @@ background-repeat:repeat-x;
 padding-top:20px;
 }
 
-.bottom-nav nav ul{
-	width: 900px;
-	margin-left: 105px;
-	margin-top: 8px;
+.bottom-nav nav ul {
+width:900px;
+margin-left:105px;
+margin-top:8px;
 }
 
-.bottom-nav nav li{
-	display: inline-block;
-}
 .bottom-nav nav a {
 text-decoration:none;
 color:#525252;
@@ -122,7 +118,6 @@ overflow:hidden;
 padding:0 30px 0 10px;
 }
 
-/*--------------SPLASH-PAGE-----------------*/
 .splash-image {
 background-color:#fff;
 height:352px;
@@ -131,17 +126,16 @@ height:352px;
 .splash-image h2 {
 margin-top:-70px;
 color:#FFF;
-margin-left: 80px;
+margin-left:80px;
 }
 
 .splash-image h3 {
 margin-top:-30px;
 margin-left:195px;
 color:#FFF;
-font-size: 20px;
+font-size:20px;
 }
 
-/*--------------FEATURE-----------------*/
 .feature {
 background-color:#fff;
 overflow:hidden;
@@ -164,7 +158,6 @@ padding-left:4%;
 
 article {
 border-top:solid 1px;
-
 }
 
 .formatting {
@@ -176,22 +169,18 @@ overflow:hidden;
 border-color:#525252;
 }
 
-/*--------------FOOTER-----------------*/
-footer{
-	margin-left: 215px;
-	margin-top: -190px;
-	position: relative;
-
-}
-footer section {
-display:inline-block;
+footer {
+margin-left:215px;
+margin-top:-190px;
+position:relative;
 }
 
-footer p{
-	color: white;
-	text-align: center;
-	margin-left: -215px;
+footer p {
+color:#FFF;
+text-align:center;
+margin-left:-215px;
 }
+
 section .foot-nav {
 background-color:#091f37;
 width:175px;
@@ -203,15 +192,18 @@ text-align:center;
 margin-top:25px;
 margin-left:25px;
 }
+section .logos {
+	margin-right: 0px;
+}
 
-section  h5{
-	text-align: center;
-	color: white;
-	font-size: 15px;
-	font-family:sans-serif;
-	background-color:#091f37;
-	padding-bottom: 5px;
-	padding-top:5px; 
+section h5 {
+text-align:center;
+color:#FFF;
+font-size:15px;
+font-family:sans-serif;
+background-color:#091f37;
+padding-bottom:5px;
+padding-top:5px;
 }
 
 section .foot-nav:hover {
@@ -240,12 +232,12 @@ ul {
 padding-left:40px;
 }
 
-/*--------------ACCORDIAN-----------------*/
 #accordion {
 background-color:#fff;
 position:absolute;
 top:218px;
 right:0;
+z-index:1;
 }
 
 .testimony {
@@ -314,61 +306,71 @@ line-height:25px;
 }
 
 h4 {
-font-family:sans-serif;
-color:#f9a634;
-font-weight:lighter;
-font-size:14px;
-line-height:0;
-}
-
-h4 p {
-font-family:sans-serif;
-color:#e4e2e2;
-font-weight:lighter;
-font-size:14px;
+background-color:#f69614;
+font-weight:bolder;
+color:#fff;
+text-align:left;
+padding-top:12px;
+padding-bottom:12px;
+height:18px;
 clear:both;
-display:inline-block;
+width:93%;
+line-height:24px;
+font-size:19px;
+font-family:sans-serif;
+padding-left:15px;
+margin:1px;
 }
 
-.social-media article {
+.social-media {
 font-family:sans-serif;
 font-weight:lighter;
 font-size:13px;
 line-height:22px;
+position:absolute;
+left:659px;
+bottom:265px;
+width:30%;
+float:left;
+z-index:0;
+margin:0 1%;
 }
 
-/*--------------LOGOS-----------------*/
 #logo1 {
 position:absolute;
-bottom:60px;
-right:150px;
+bottom:75px;
+right:265px;
 }
 
 #logo2 {
 position:absolute;
-bottom:60px;
-right:30px;
+bottom:75px;
+right:140px;
 }
 
 #crest-logo {
 position:absolute;
 top:0;
-right:845px;
+left: 140px;
+
 }
 
 .more {
 text-align:right;
 }
 
-.full {
+/*.full {
 width:97%;
 margin:0 1%;
 padding:0 .5%;
 }
-
+*/
 .third {
 width:30%;
-text-align:justify-left;
 float:left;
 margin:0 1%;
+}
+
+.bottom-nav nav li,footer section {
+display:inline-block;
 }
