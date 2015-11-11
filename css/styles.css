@@ -11,7 +11,7 @@ background-color:#0c2745;
 position:relative;
 margin:0 auto;
 }
-
+/*----------------------------HEADER-----------------*/
 header {
 background-color:#173f6b;
 font-weight:700;
@@ -117,7 +117,7 @@ border-radius:10px;
 overflow:hidden;
 padding:0 30px 0 10px;
 }
-
+/*----------------------------SPLASH IMAGE-----------------*/
 .splash-image {
 background-color:#fff;
 height:352px;
@@ -126,16 +126,18 @@ height:352px;
 .splash-image h2 {
 margin-top:-70px;
 color:#FFF;
-margin-left:80px;
+margin-left:8px;
+font-size: 30px;
 }
 
-.splash-image h3 {
-margin-top:-30px;
-margin-left:195px;
+.splash-image p {
+margin-top:-27px;
+margin-left:10px;
 color:#FFF;
-font-size:20px;
+font-size:24px;
+font-weight: lighter;
 }
-
+/*----------------------------FEATURE ARTICLE-----------------*/
 .feature {
 background-color:#fff;
 overflow:hidden;
@@ -156,8 +158,10 @@ color:#525252;
 padding-left:4%;
 }
 
-article {
-border-top:solid 1px;
+.feature article {
+	width: 600px;
+	border-top:solid 1px;
+
 }
 
 .formatting {
@@ -167,8 +171,16 @@ float:left;
 padding-bottom:20px;
 overflow:hidden;
 border-color:#525252;
+
+}
+.thirds {
+width:48%;
+float:left;
+margin:0 1%;
+
 }
 
+/*----------------------------FOOTER-----------------*/
 footer {
 margin-left:215px;
 margin-top:-190px;
@@ -231,7 +243,11 @@ color:orange;
 ul {
 padding-left:40px;
 }
+p{font-size: 10px;}
+/*----------------------------ACCORDIAN-----------------*/
+aside{
 
+}
 #accordion {
 background-color:#fff;
 position:absolute;
@@ -239,12 +255,18 @@ top:218px;
 right:0;
 z-index:1;
 }
-
+/*-------------------TESTIMONY(DROP DOWN)-----------------*/
 .testimony {
 float:left;
 font-size:10px;
 }
 
+.third {
+width:30%;
+float:left;
+margin:0 1%;
+
+}
 .testimony p {
 width:50%;
 float:left;
@@ -282,29 +304,6 @@ padding-left:15px;
 background-color:#173f6b;
 color:#f69614;
 }
-
-#like-share {
-padding-left:20px;
-background-color:#e4e2e2;
-}
-
-h2 {
-font-family:sans-serif;
-color:#173f6b;
-font-weight:lighter;
-border-bottom:1px solid #173f6b;
-padding-bottom:15px;
-clear:both;
-}
-
-h3 {
-font-family:sans-serif;
-color:#000;
-font-size:14px;
-font-weight:lighter;
-line-height:25px;
-}
-
 h4 {
 background-color:#f69614;
 font-weight:bolder;
@@ -321,6 +320,22 @@ font-family:sans-serif;
 padding-left:15px;
 margin:1px;
 }
+/*-------------------SOCIAL MEDIA-----------------------------*/
+#like-share {
+padding-left:20px;
+background-color:#e4e2e2;
+}
+
+
+
+/*h3 {
+font-family:sans-serif;
+color:#000;
+font-size:14px;
+font-weight:lighter;
+line-height:25px;
+}
+*/
 
 .social-media {
 font-family:sans-serif;
@@ -329,29 +344,41 @@ font-size:13px;
 line-height:22px;
 position:absolute;
 left:659px;
-bottom:265px;
+bottom:250px;
 width:30%;
 float:left;
 z-index:0;
 margin:0 1%;
 }
 
+h3 {
+font-family:sans-serif;
+color:#173f6b;
+font-weight:lighter;
+border-bottom:1px solid #173f6b;
+padding-bottom:15px;
+clear:both;
+font-size: 25px;
+}
+
+.social-media h6{font-size: 15px; margin:0;font-weight:lighter;}
+.social-media p{font-size: 12px; display: inline-block;}
 #logo1 {
 position:absolute;
 bottom:75px;
-right:265px;
+right:385px;
 }
 
 #logo2 {
 position:absolute;
 bottom:75px;
-right:140px;
+right:240px;
 }
 
 #crest-logo {
 position:absolute;
 top:0;
-left: 140px;
+left: 195px;
 
 }
 
@@ -365,11 +392,7 @@ margin:0 1%;
 padding:0 .5%;
 }
 */
-.third {
-width:30%;
-float:left;
-margin:0 1%;
-}
+
 
 .bottom-nav nav li,footer section {
 display:inline-block;
