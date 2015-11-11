@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<meta charset="UTF-8">
-		<title>Web Standards</title>
+		<title>BHS</title>
 	</head>
 	<body>
 		<div id="container">
@@ -10,31 +12,34 @@
 			<header>	
 				<div class="top-nav">
 					<nav>
-						<a href="#">Home</a>
-						<a href="#">About Us</a>
-						<a href="#">FAQ</a>
-						<a class ="none" href="#">Contact</a>	<!--CLASS TO REMOVE BORDER LINE ON THE RIGHT ?  -->
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a class="none" href="#">Contact</a></li>	<!--CLASS TO REMOVE BORDER LINE ON THE RIGHT ?  -->
+						</ul>
 					</nav>
 					<div id="fb-btn">
 						<a href="http://www.facebook.com" target="_blank">
-							<img src="_images/facebook-button.png" width="136" height="41" alt="Facebook">
+							<img src="_images/facebook-button.png" width="110"  alt="Facebook">
 						</a>
 					</div>
-					<input type ="text"id="search-box" value="search"></input>
-					<div id="donate-button">
-						<img src="_images/donate-button.png" width="175" alt="Donate">
-					</div>
+					<input type ="text"id="search-box" value="search"></input>		
+					<img id="donate-button" src="_images/donate-button.png" width="175" alt="Donate Button">
+					
 				</div>	
 	
 				<div class="bottom-nav">
 					<nav>
-						<a href="#">HOME</a>
-						<a href="#">ABOUT US</a>
-						<a href="#">FAQ</a>
-						<a href="#">SERVICES</a>
-						<a href="#">WHAT IS ADDICTION</a>
-						<a href="#">MAKE AN APPOINTMENT</a>
-						<a href="#">CONTACT</a>
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT US</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">SERVICES</a></li>
+							<li><a href="#">WHAT IS ADDICTION</a></li>
+							<li><a href="#">MAKE AN APPOINTMENT</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
 					</nav>
 				</div>
 			</header>	
@@ -42,69 +47,95 @@
 			
 
 			<!--SPLASH IMAGE -->
-			<div id="splash-image">
+			
+			
+			<div class="splash-image">
 				<img src="_images/main_Image.jpg" width="960" height="352" alt="Splash Page Image">
-				<h1>Served close to 300,000 people</h1>
-				<h2>since its opening in 1973</h2>	
+				<h2>Served close to 300,000 people</h2>
+				<p>since its opening in 1973</p>	
 			</div>
 
 			<!--FEATURE ARTICLE -->
 			<div class="feature">
+			
 				<h1>Welcome to Behavioral Health Services</h1>
-				<div id="formatting" class ="thirds">
+				<div class="formatting" >
 					<article>
-						<div class = "third"><p>Behavioral Health Services is a not-for-profit community-based 	healthcare organization providing substance abuse, mental health, drug-free transitional 	living, older adult services, HIV/AIDS education and prevention, and other related 	health service to the residents of Southern California.</p>
+						<div class="thirds">
+							<p>Behavioral Health Services is a not-for-profit community-based healthcare organization providing substance abuse, mental health, drug-free transitional 	living, older adult services, HIV/AIDS education and prevention, and other related health service to the residents of Southern California.</p>
 	
-						<p>BHS' mission is to transform lives by offering hope and opportunities for recovery, 	wellness, and independence.</p>
+							<p>BHS' mission is to transform lives by offering hope and opportunities for recovery, wellness, and independence.</p>
 	
-						<p>Since 1973, BHS has provided inpatient detoxification and residential and outpatient 	treatment services to substance abusers.</p></div>
+							<p>Since 1973, BHS has provided inpatient detoxification and residential and outpatient treatment services to substance abusers.</p>
+						</div>
 	
-						<div class = "third"><p>Over the past thirty-four years BHS expanded services to meet 	the comprehensive needs of its clients, and now provides services from 11 sites located 	throughout Los Angeles County. These sites include two free-standing chemical  	dependency recovery centers with medical detoxification and residential/outpatient 	treatment, two residential treatment facilities, seven outpatient facilities, and two 	transitional living facilities. The BHS continuum of care includes four community 	assessment center sites, prevention programs for adolescents and older adults; geriatric 	case management and home care services for frail elderly and disabled adults.</p></div>
+						<div class = "thirds">
+							<p>Over the past thirty-four years BHS expanded services to meet the comprehensive needs of its clients, and now provides services from 11 sites located throughout Los Angeles County. These sites include two free-standing chemical dependency recovery centers with medical detoxification and residential/ outpatient treatment, two residential treatment facilities, seven outpatient facilities, and two transitional living facilities. The BHS continuum of care includes four community assessment center sites, prevention programs for adolescents and older adults; geriatric case management and home care services for frail elderly and disabled adults.</p>
+						</div>
 					</article>
 				</div>
 			</div>
 
 			<!--ACCORDIAN -->
-			<div id="accordion" class="third">
-				<header>Testimonials</header>
-				<div class="testimony">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.</br></br></br>
-					<a href="_images/graduate.png" width="118" height="103" alt="Graduate image">Click here to view</a></p> 
-					<img src="_images/graduate.png" width="118" height="103" alt="Graduate image">
-				</div>
-				<div class ="selections">Get Involved!</div>
-				<div class ="selections">Work at BHS</div>
-				<div class ="selections">Subscribe to Newsletter</div>
-				<div class="social-media">
-					<div id="like-share">
-						<img src="_images/likes.png" width="102" height="34" alt="Like button">
-						<img src="_images/shares.png" width="112" height="33" alt="Shares button">
-					</div>
-					<h2>Latest Facebook Post</h2>
-					<h3>Recovery Month 2011 - Home</h3>
-					<h4>May 9, 2011 10:21 AM<p> </br>by Apple Applegate</p></h4>
-					<article>
-						Recovery Month promotes the societal benefits of treatment for substance usedisordersand mental health problems, celebrates people in recovery, lauds thecontributions oftreatment providers, and promotes the message that recovery in allits forms is possible.Recovery Month spreads the position.
-						</br>
-						<div id="more">
-							<a href="#">MORE</a>
+			<!-- keep this id for possible javascript reasons -->
+			<!-- get jquery ui -->
+			<aside>
+				<div id="accordion" class="third">
+					<h4>Testimonials</h4>
+						<div>
+							<span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								<a href="#">Click here to view</a>
+							</span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
 						</div>
-					</article>
+	
+						<h4>Get Involved!</h4>
+						<div><span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<a href="#">Click 	here to view</a></span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
+						</div>
+						<h4>Work at BHS</h4>
+						
+						<div><span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<a href="#">Click 	here to view</a></span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
+						</div>
+						<h4>Subscribe to Newsletter</h4>
+	
+						<div><span style="font-size:12px; padding:5px; display:inline-block; width:120px;">Lorem ipsum dolor sit amet, 	consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<a href="#">Click here to view</a></span> 
+						<img src="_images/graduate.png" width="118" height="103" alt="Graduate">
+						</div>
+	
 				</div>
-					
-
-			</div>
+					<!--SOCIAL-MEDIA -->
+						<div class="social-media">
+							<div id="like-share">
+								<img src="_images/likes.png">
+								<img src="_images/shares.png">
+						    </div>
+								<h3>Latest Facebook Post</h3>
+								<h6>Recovery Month 2011 - Home</h6>
+								<p style="color:orange;">May 9, 2011 10:21 AM</p>  <p style="color:gray;">by Apple Applegate</p>
+							<article>
+								Recovery Month promotes the societal benefits of treatment for substance use disorders and mental health 	problems, celebrates people in recovery, lauds the contributions of treatment providers, and promotes the 	message that recovery in all its forms is possible. Recovery Month spreads the position.
+								
+								<div class="more">
+									<a href="#">MORE</a>
+								</div>
+							</article>	
+						</div>
+						
+	
+				</div>
+			</aside>
 					<!--LOGOS -->
-					<div id="logo1"><img src="_images/logo1.png" width="91" height="89" alt="ADP logo"></div>
-					<div id="logo2"><img src="_images/logo2.png" width="115" height="88" alt="carf logo"></div>
 					
 					<div id="crest-logo"><img src="_images/crestLogo.png" width="106" height="113" alt="Crest Logo"></div>
 		</div>
 
 					<!--FOOTER -->
 		<footer>
-				<section>
-					<div class="foot-nav">About Us</div>
+				<section class="foot-nav">
+						<h5>About Us</h5>
 						<ul>
 							<li><a href="#">Our History</a></li>
 							<li><a href="#">About the CEO</a></li>
@@ -112,8 +143,8 @@
 							<li><a href="#">Ut labore et dolore magna </a></li>
 						</ul>
 				</section>	
-				<section>
-						<div class ="foot-nav">Services</div>
+				<section class="foot-nav">
+						<h5>Services</h5>
 							<ul>
 								<li><a href="#">Lorem ipsum dolor sit amet</a></li>
 								<li><a href="#">Consectetur adipisicing elit</a></li>
@@ -121,17 +152,39 @@
 								<li><a href="#">Ut labore et dolore magna </a></li>
 							</ul>
 				</section>			
-				<section>
-					<div class ="foot-nav">Ways to Get Involved </div>
+				<section class="foot-nav">
+					<h5>Ways to Get Involved</h5>
 						<ul>
 							<li><a href="#">Make a Dominion</a></li>
 							<li><a href="#">Become a Corporate Sponsor</a></li>
 							<li><a href="#">Volunteer Your Time</a></li>
 							<li><a href="#">Partner Your Agency With Ours</a></li>
 						</ul>
+				</section>
+				<section class="logos">
+					<img src="_images/logo1.png" id="logo1" width="91" height="89" alt="ADP logo">
+					<img src="_images/logo2.png" id="logo2" width="115" height="88" alt="carf logo">
 				</section>	
-			<p>Copyright Behavioral Health Services &copy 2011. All Rights reserved.</p>
+			<p>Copyright Behavioral Health Services &amp;copy 2011. All Rights reserved.</p>
 		</footer>	
+		<script src="_js/jquery-1.11.3.min.js"></script>
+       <script src="_js/jquery-ui-1.11.4-custom.min.js"></script>
+		<script>
+		$(function() {
+          $( "#accordion" ).accordion();
+        });
+		// $(function () {
+  //   	//  Accordion Panels
+  //   	$("#accordion div").show();
+  //   	setTimeout("$('#accordion div').slideToggle('slow');", 1000);
+  //   	$("#accordion h3").click(function () {
+  //         $(this).next(".pane").slideToggle("slow").siblings(".pane:visible").slideUp("slow");
+  //         $(this).toggleClass("current");
+  //         $(this).siblings("h3").removeClass("current");
+  //   });
+// });
+
+		</script>
 		
 	</body>
 </html>
